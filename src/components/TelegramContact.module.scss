@@ -1,0 +1,31 @@
+.TelegramContact {
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    min-height: 70vh;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      input {
+        width: 600px;
+        font-size: 18px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid black;
+      }
+      button {
+        border: none;
+        cursor: pointer;
+        color: aqua;
+        padding: 15px 80px;
+        border-radius: 10px 20px 10px;
+        background: rgb(00, 00, 66);
+      }
+    }
+  }
+}
